@@ -1,0 +1,685 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.mountain {
+  background-image: url(../images/mountain.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: #fff;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.mountain__main {
+  margin-top: 200px;
+  color: #fff;
+}
+
+.mountain__text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 35px;
+}
+
+.mountain__text-second {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 23px;
+  font-weight: 300;
+}
+
+.input-font {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+}
+
+.button-font {
+  font-family: "Aleo", serif;
+  font-size: 14px;
+}
+
+.mountain__search-form {
+  position: relative;
+  width: 631px;
+  margin: 0 auto;
+}
+
+.mountain__search-form--input,
+.mountain__search-form--button {
+  border: none;
+  outline: none;
+}
+
+.mountain__search-form--input {
+  width: 100%;
+  height: 61px;
+  background-color: #fff;
+  padding-right: 40px;
+  text-align: center;
+}
+
+.mountain__search-form--button {
+  height: 96%;
+  width: 151px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  color: #fff;
+  background: #5474fd;
+  cursor: pointer;
+}
+
+.mountain__search-form--img {
+  margin-left: 10px;
+}
+
+.mountain__scroll {
+  text-align: center;
+  margin-top: 140px;
+  opacity: 50%;
+}
+
+.scroll-font {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: 14px;
+}
+
+.navbar {
+  background: #5474fd;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-font {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+
+.nav-link:hover {
+  color: #044785;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar-toggler {
+  background: #fff !important;
+}
+
+.mountain__navbar {
+  position: absolute;
+}
+
+.li-font {
+  font-family: "Aleo", serif;
+  font-size: 14px;
+}
+
+.about {
+  background-image: url(../images/choose.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-top: 0px;
+}
+
+.choose {
+  display: flex;
+  justify-content: space-around;
+}
+
+.choose__left {
+  width: 430px;
+}
+
+.choose-font {
+  font-family: "Aleo", serif;
+  font-size: 36px;
+}
+
+.choose-main-font {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+}
+
+.choose-btn-font {
+  font-family: "Aleo", serif;
+}
+
+.heading {
+  color: #fff;
+  padding-top: 150px;
+}
+
+.choose__left-text {
+  color: #e8e8e8;
+}
+
+.img-mini {
+  width: 300px;
+  height: 170px;
+}
+
+.btn-style {
+  opacity: 70%;
+}
+
+.choose__right-lake {
+  padding-top: 100px;
+  margin-left: -100px;
+}
+
+.choose__right-mountain {
+  margin-top: 8px;
+}
+
+.enjoy {
+  height: 338px;
+  background-image: url(../images/Shape.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.enjoy-font {
+  font-family: "Aleo", serif;
+  font-size: 20px;
+}
+
+.enjoy-p {
+  margin-top: 15px;
+}
+
+.enjoy__img {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 130px;
+  color: #fff;
+}
+
+.enjoy__img--icons {
+  background-color: #333;
+  border-radius: 50%;
+  width: 130px;
+  height: 90px;
+  text-align: center;
+}
+
+.house,
+.stones {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  color: #fff;
+}
+
+.house {
+  background-image: url(../images/house.png);
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-text-font {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+
+.second-text-font {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  color: #e8e8e8;
+}
+
+.third-text-font {
+  font-family: "Aleo", serif;
+  font-size: 14px;
+}
+
+.house__block {
+  background-color: #333333;
+  opacity: 90%;
+  height: 300px;
+  width: 400px;
+  padding-left: 10px;
+  padding-top: 35px;
+}
+
+.house__block--position {
+  margin-top: 200px;
+  margin-left: 100px;
+}
+
+.stones {
+  background-image: url(../images/stones.png);
+  display: flex;
+}
+
+.stones__position {
+  margin-top: 130px;
+  margin-left: 670px;
+}
+
+.man {
+  background-image: url(../images/man1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  color: #fff;
+  display: flex;
+}
+
+.man-main-font {
+  font-family: "Aleo", serif;
+  font-size: 36px;
+}
+
+.man__container {
+  margin-top: 130px;
+  margin-left: 230px;
+}
+
+.man__container--title {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 36px;
+}
+
+.man__block {
+  display: flex;
+  width: 1000px;
+  height: 280px;
+}
+
+.man__img {
+  width: 400px;
+  height: 240px;
+}
+
+.man__text {
+  background-color: #333333;
+  padding-left: 20px;
+  width: 600px;
+  height: 240px;
+}
+
+.man-second-font {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.man-third-font {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+}
+
+.footer {
+  background-color: #232323;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer__menu {
+  width: 230px;
+  height: 70px;
+  color: #fff;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.footer-color {
+  color: #fff;
+}
+
+.footer-color:hover {
+  color: #5474fd;
+}
+
+.i-color {
+  color: #5474fd;
+}
+
+li {
+  list-style-type: none;
+}
+
+.footer-first-font {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 24px;
+}
+
+.footer-second-font {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 960px;
+  }
+
+  .enjoy {
+    background-image: none;
+    background-color: #333333;
+  }
+
+  .house__block {
+    width: 400px;
+  }
+
+  .man__text {
+    width: 400px;
+  }
+
+  .footer__menu {
+    width: 250px;
+  }
+
+  .stones__position {
+    margin-top: 100px;
+    margin-left: 550px;
+  }
+
+  .man__img {
+    width: 350px;
+    height: 240px;
+  }
+
+  .man__container--title {
+    margin-right: 360px;
+  }
+}
+@media screen and (max-width: 998px) {
+  .container {
+    width: 780px;
+  }
+
+  .nav-font {
+    font-size: 15px;
+    width: 100px;
+    margin-left: 30px;
+  }
+
+  .choose__right-lake {
+    margin-left: 0px;
+  }
+
+  .house__block {
+    width: 300px;
+  }
+
+  .man__container {
+    margin-top: 100px;
+    margin-left: 70px;
+  }
+
+  .man__container--title {
+    margin-right: 0px;
+  }
+
+  .footer__menu {
+    width: 250px;
+  }
+
+  .navbar-menu {
+    display: none;
+  }
+
+  .stones__position {
+    margin-top: 130px;
+    margin-left: 400px;
+  }
+
+  .man__img {
+    width: 300px;
+    height: 200px;
+  }
+
+  .man__text {
+    background-color: #333333;
+    padding-left: 20px;
+    width: 300px;
+    height: 200px;
+  }
+
+  .man-third-font {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+
+  .stones__position {
+    margin-top: 80px;
+    margin-left: 92px;
+  }
+
+  .footer__menu {
+    width: 250px;
+  }
+
+  .img-mini {
+    width: 220px;
+    height: 120px;
+  }
+
+  .choose__left {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 689px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .choose-font {
+    font-size: 17px;
+  }
+
+  .choose__left {
+    width: 200px;
+  }
+
+  .img-mini {
+    width: 200px;
+    height: 100px;
+    margin-top: 80px;
+  }
+
+  .enjoy {
+    height: 220px;
+  }
+
+  .enjoy__img {
+    padding-top: 50px;
+  }
+
+  .enjoy__img--icons {
+    width: 70px;
+    height: 45px;
+  }
+
+  .man__img {
+    width: 250px;
+    height: 150px;
+  }
+
+  .man__text {
+    background-color: #333333;
+    padding-left: 0px;
+    width: 250px;
+    height: 150px;
+  }
+
+  .man-third-font {
+    font-size: 10px;
+  }
+
+  .man-second-font {
+    font-size: 10px;
+    padding-top: 2px;
+  }
+
+  .footer__menu {
+    width: 250px;
+  }
+
+  .house__block {
+    width: 300px;
+  }
+
+  .mountain__search-form {
+    position: relative;
+    width: 331px;
+    margin: 0 auto;
+  }
+
+  .mountain__search {
+    display: none;
+  }
+}
+@media screen and (max-width: 585px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .enjoy__img--icons {
+    width: 50px;
+    height: 35px;
+  }
+
+  .man__img {
+    display: none;
+  }
+
+  .man__text {
+    background: none;
+    padding-left: 0px;
+    width: 250px;
+    height: 150px;
+  }
+
+  .man-third-font {
+    font-size: 13px;
+  }
+
+  .man-second-font {
+    font-size: 12px;
+    padding-top: 2px;
+  }
+
+  .man-main-font {
+    display: none;
+  }
+
+  .man,
+  .mountain,
+  .about,
+  .overlay,
+  .house,
+  .stones {
+    height: 400px;
+  }
+
+  .mountain__navbar,
+  .mountain__scroll {
+    display: none;
+  }
+
+  .choose__left-second {
+    display: none;
+  }
+
+  .choose-font {
+    font-size: 11px;
+  }
+
+  .choose__left {
+    margin-top: -50px;
+  }
+
+  .choose__right {
+    margin-top: -150px;
+  }
+
+  .enjoy {
+    height: 180px;
+  }
+
+  .enjoy__img {
+    padding-top: 50px;
+  }
+
+  .enjoy__img--icons {
+    width: 50px;
+    height: 35px;
+  }
+
+  .enjoy-p {
+    font-size: 12px;
+  }
+
+  .house__block {
+    width: 190px;
+    background: none;
+    color: #000;
+  }
+
+  .main-text-font {
+    color: #000;
+    font-family: serif;
+  }
+
+  .second-text-font {
+    color: #000;
+    font-family: serif;
+  }
+
+  .house__block--position {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .stones__position {
+    display: none;
+  }
+
+  .footer__menu {
+    width: 250px;
+  }
+}
